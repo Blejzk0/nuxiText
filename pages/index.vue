@@ -1,6 +1,6 @@
 <script lang="ts" setup>
     const {data} = await useAsyncData("projects", () => {
-        const projects = $fetch("https://suburban-fun-clone-journalism.trycloudflare.com/api/projects", {
+        const projects = $fetch("https://obituaries-issue-alt-ridge.trycloudflare.com/api/projects", {
         });
         return projects;
     });
