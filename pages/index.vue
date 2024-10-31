@@ -1,6 +1,6 @@
 <script lang="ts" setup>
     const {data} = await useAsyncData("projects", () => {
-        const projects = $fetch("https://salty-papayas-know.loca.lt/api/projects", {
+        const projects = $fetch("https://whole-words-smell.loca.lt/api/projects", {
         });
         return projects;
     });
